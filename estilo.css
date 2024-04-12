@@ -1,0 +1,74 @@
+body {
+    background-image: url(./img/pexels-diego-rezende-3672776.jpg);
+    /* background-size: 100%;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    min-height: 600px;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1b321d;
+    color: #fff;
+    padding: 25px;
+}
+
+#button1, #button2, #button3 {
+    margin-right: 40px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #314f2f;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-left: 40px;
+}
+
+h1{
+    font-size: 90px;
+    color: #365223;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    position: relative;
+    top: -70px;
+}
+
+#left-pane, #right-pane {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#left-pane {
+    background-color: #27372499;
+    width: 700px;
+}
+
+#search-input {
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#results {
+    margin-top: 30px;
+}
+
+#right-pane {
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+#titulo{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
